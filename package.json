@@ -1,10 +1,10 @@
 {
   "name": "amqp-ts",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Easy to use AMQP library written in Typescript (using amqplib).",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abreits/amqp-ts"
+    "url": "git+https://github.com/Didstopia/amqp-ts"
   },
   "keywords": [
     "amqp",
@@ -21,27 +21,27 @@
     "test-integration": "gulp test:integration"
   },
   "dependencies": {
-    "@types/node": "^12.7.2",
-    "amqplib": "^0.4.1",
-    "bluebird": "^3.3.5",
-    "winston": "^2.2.0"
+    "@types/node": "^13.9.0",
+    "amqplib": "^0.5.5",
+    "bluebird": "^3.7.2",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
-    "@types/mocha": "^5.2.7",
-    "chai": "^3.5.0",
-    "del": "^2.2.0",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-add-src": "^1.0.0",
-    "gulp-mocha": "^7.0.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-sourcemaps": "^1.6.0",
+    "gulp-mocha": "^7.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^2.6.5",
     "gulp-tslint": "^8.1.4",
     "gulp-typescript": "^5.0.1",
-    "line-reader": "^0.3.1",
-    "merge2": "^0.3.7",
-    "mocha": "^6.2.0",
-    "source-map-support": "^0.3.3",
-    "tslint": "^5.19.0",
-    "typescript": "^3.5.3"
+    "line-reader": "^0.4.0",
+    "merge2": "^1.3.0",
+    "mocha": "^7.1.0",
+    "source-map-support": "^0.5.16",
+    "tslint": "^6.0.0",
+    "typescript": "^3.8.3"
   }
 }

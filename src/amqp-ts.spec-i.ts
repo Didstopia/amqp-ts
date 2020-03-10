@@ -13,11 +13,11 @@ import * as Amqp from "../lib/amqp-ts";
 // define test defaults
 var ConnectionUrl = process.env.AMQPTEST_CONNECTION_URL || "amqp://localhost";
 var UnitTestLongTimeout = process.env.AMQPTEST_LONG_TIMEOUT || 60000;
-var LogLevel = process.env.AMQPTEST_LOGLEVEL || "warn";
+// var LogLevel = process.env.AMQPTEST_LOGLEVEL || "warn";
 
 // set logging level
 var winston = Amqp.log;
-winston.transports.console.level = LogLevel;
+// winston.transports.console.level = LogLevel;
 
 // needed for server restart tests
 var os = require("os");

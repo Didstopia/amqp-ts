@@ -19,7 +19,7 @@ var ApplicationName = process.env.AMQPTS_APPLICATIONNAME ||
     (path.parse ? path.parse(process.argv[1]).name : path.basename(process.argv[1]));
 
 // create a custom winston logger for amqp-ts
-var amqp_log = new winston.Logger({
+var amqp_log = winston.createLogger({
   transports: [
     new winston.transports.Console({
       level: process.env.AMQPTS_LOGLEVEL || "error"
